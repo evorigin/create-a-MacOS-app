@@ -42,7 +42,7 @@ setup_requires=['py2app'],
 > 2. 如果你的应用使用的其他资源文件，应该将其包含在`DATA_FILES`中
 >> `DATA_FILES = ['testdata.json', 'picture.png']`
 
-> #### 2.2 png图片转icns图标
+> #### 2.3 png图片转icns图标
 >> 1. 准备一张1024X1024或者像素更高的图片，命名为app.png
 >> 2. 创建文件夹 app.iconset，手动创建或`mkdir test.iconset`，并将app.png放入该文件夹
 >> 3. 转换png图片为各种尺寸
