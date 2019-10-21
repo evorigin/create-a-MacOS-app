@@ -13,8 +13,8 @@ py2applet --make-setup xxx.py
 > #### 2.1 `setup.py`文件是对应用的基本定义
 ```
 from setuptools import setup
-APP = ['hex.py']
-APP_NAME = "Hex"
+APP = ['test.py']
+APP_NAME = "TEST"
 DATA_FILES = []
 OPTIONS = {
 'argv_emulation': True,
@@ -22,11 +22,11 @@ OPTIONS = {
 'plist': {
 'CFBundleName': APP_NAME,
 'CFBundleDisplayName': APP_NAME,
-'CFBundleGetInfoString': "otto.hex",
-'CFBundleIdentifier': "com.otto.osx.hex",
+'CFBundleGetInfoString': "taoxx",
+'CFBundleIdentifier': "com.taoxx",
 'CFBundleVersion': "1.0.0",
 'CFBundleShortVersionString': "1.0.0",
-'NSHumanReadableCopyright': "Copyright @ 2017, otto.Wu, All Rights Reserved"
+'NSHumanReadableCopyright': "Copyright @ 2019, taoxx, All Rights Reserved"
 }
 }
 setup(
@@ -60,7 +60,7 @@ $ sips -z 512 512   app.png --out app.iconset/icon_512x512@2x.png
 ```
 >> 4. 打包为icns
 ```
-iconutil -c icns tmp.iconset -o lalala.icns
+iconutil -c icns tmp.iconset -o app.icns
 ```
 
 ## 3. 打包应用
