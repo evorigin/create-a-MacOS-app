@@ -75,4 +75,3 @@ python3 setup.py py2app
 
 ## 4. xxx文件下出现dist文件夹，打开后里面有个app，双击即可运行
 ![Alt text](/pngpic.iconset/icon_64x64@2x.png)
-![Alt text](/app.icns)
